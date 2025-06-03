@@ -47,7 +47,8 @@ public class Program {
             sum += tax;
         }
 
-
+        System.out.println();
+        System.out.println("TOTAL TAXES: $ " + String.format("%.2f", sum));
 
         sc.close();
     }
